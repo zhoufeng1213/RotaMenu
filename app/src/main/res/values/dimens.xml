@@ -1,0 +1,12 @@
+<resources>
+
+    <dimen name="home_menu_image_size">90dp</dimen>
+    <dimen name="home_menu_text_margin_top">-10dp</dimen>
+    <dimen name="home_menu_image_small_size">25dp</dimen>
+
+
+    <dimen name="CFMDefaultRadius">120dp</dimen>
+    <integer name="CFMDefaultDegrees">180</integer>
+    <integer name="CFMDefaultStartDegrees">180</integer>
+
+</resources>

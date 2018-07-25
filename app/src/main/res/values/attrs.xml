@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularFloatingMenu">
+        <attr name="radius_float" format="reference|dimension" />
+        <attr name="degrees" format="reference|integer" />
+        <attr name="startDegrees" format="reference|integer" />
+        <attr name="isCloseWhenItemClick" format="boolean" />
+    </declare-styleable>
+
+
+
+</resources>

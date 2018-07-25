@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="list_background">#E5E5E5</color>
+
+    <color name="circle_fcfcfc">#fafafa</color>
+    <color name="gray">#ff888888</color>
+    <color name="zhankai_close">#D1D1D1</color>
+    <color name="yellow_mplist_bg">#fffcc9</color>
+    <color name="orange_new">#bfed8c17</color>
+    <color name="zhankai_left">#FF854D</color>
+    <color name="zhankai_right">#FF5350</color>
+    <color name="chat_video_bg">#FF5250</color>
+</resources>

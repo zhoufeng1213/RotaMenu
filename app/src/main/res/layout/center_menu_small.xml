@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fly.rotamenu.widget.CircularFloatingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/circularFloatingMenu_small"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:isCloseWhenItemClick="false"
+    app:degrees="180"
+    app:radius_float="50dp"
+    app:startDegrees="250">
+
+
+    <ImageView
+        android:layout_width="@dimen/home_menu_image_small_size"
+        android:layout_height="@dimen/home_menu_image_small_size"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/requirements_fayue_meishi1" />
+
+
+    <ImageView
+        android:layout_width="@dimen/home_menu_image_small_size"
+        android:layout_height="@dimen/home_menu_image_small_size"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/requirements_fayue_heyibei1" />
+
+
+    <ImageView
+        android:layout_width="@dimen/home_menu_image_small_size"
+        android:layout_height="@dimen/home_menu_image_small_size"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/requirements_fayue_kge1" />
+
+
+    <ImageView
+        android:layout_width="@dimen/home_menu_image_small_size"
+        android:layout_height="@dimen/home_menu_image_small_size"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/requirements_fayue_shipinliaotian1" />
+
+
+    <ImageView
+        android:layout_width="@dimen/home_menu_image_small_size"
+        android:layout_height="@dimen/home_menu_image_small_size"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/requirements_fayue_kandianying1" />
+
+
+    <ImageView
+        android:layout_width="@dimen/home_menu_image_small_size"
+        android:layout_height="@dimen/home_menu_image_small_size"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/requirements_fayue_gengduo1" />
+
+
+    <ImageButton
+        style="@style/menu_btn"
+        android:id="@+id/menu_action_image_small"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_button_zhankai"
+        android:src="@mipmap/ic_action_new" />
+
+</com.fly.rotamenu.widget.CircularFloatingMenu>

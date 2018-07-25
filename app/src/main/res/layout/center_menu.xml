@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fly.rotamenu.widget.CircularFloatingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/circularFloatingMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:isCloseWhenItemClick="false"
+    app:degrees="240"
+    app:radius_float="110dp"
+    app:startDegrees="150">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/home_menu_image_size"
+            android:layout_height="@dimen/home_menu_image_size"
+            android:src="@drawable/requirements_fayue_meishi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:layout_marginTop="@dimen/home_menu_text_margin_top"
+            android:text="吃美食" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/home_menu_image_size"
+            android:layout_height="@dimen/home_menu_image_size"
+            android:src="@drawable/requirements_fayue_heyibei" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:layout_marginTop="@dimen/home_menu_text_margin_top"
+            android:textSize="12sp"
+            android:text="喝一杯" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/home_menu_image_size"
+            android:layout_height="@dimen/home_menu_image_size"
+            android:layout_gravity="center"
+            android:src="@drawable/requirements_fayue_kge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:layout_marginTop="@dimen/home_menu_text_margin_top"
+            android:text="K歌" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="@dimen/home_menu_image_size"
+            android:layout_height="@dimen/home_menu_image_size">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/home_video_chat_image"
+                android:layout_width="@dimen/home_menu_image_size"
+                android:layout_height="@dimen/home_menu_image_size"
+                android:layout_gravity="center"
+                android:src="@drawable/requirements_fayue_shipinliaotian" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/home_video_chat_image2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/chat_video_bg"
+                android:visibility="gone" />
+
+
+        </FrameLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:layout_marginTop="@dimen/home_menu_text_margin_top"
+            android:text="视频聊天" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/home_menu_image_size"
+            android:layout_height="@dimen/home_menu_image_size"
+            android:layout_gravity="center"
+            android:src="@drawable/requirements_fayue_kandianying" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:layout_marginTop="@dimen/home_menu_text_margin_top"
+            android:text="看电影" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/home_menu_image_size"
+            android:layout_height="@dimen/home_menu_image_size"
+            android:layout_gravity="center"
+            android:src="@drawable/requirements_fayue_gengduo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:layout_marginTop="@dimen/home_menu_text_margin_top"
+            android:text="更多" />
+    </LinearLayout>
+
+
+    <ImageButton
+        style="@style/menu_btn"
+        android:id="@+id/menu_action_image"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_button_close"
+        android:src="@mipmap/ic_action_new" />
+
+</com.fly.rotamenu.widget.CircularFloatingMenu>
